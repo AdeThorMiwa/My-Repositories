@@ -125,6 +125,7 @@ const template = ({
     `;
 
 const fetchRepoData = async () => {
+  console.log("dd");
   try {
     const url = "https://api.github.com/graphql";
     const token =
